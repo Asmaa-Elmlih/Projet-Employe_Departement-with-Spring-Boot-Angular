@@ -1,0 +1,29 @@
+<p>add Employe works!</p>
+<!-- add-employee.component.html -->
+<h2>Ajouter un employé</h2>
+<form (ngSubmit)="addEmploye()">
+  <div class="form-group">
+    <label for="nom">Nom :</label>
+    <input type="text" class="form-control" id="nom" [(ngModel)]="newEmployee.nom" name="nom">
+  </div>
+  <div class="form-group">
+    <label for="nom">Prenom :</label>
+    <input type="text" class="form-control" id="nom" [(ngModel)]="newEmployee.prenom" name="nom">
+  </div>
+  <div class="form-group">
+    <label for="nom">Tel :</label>
+    <input type="text" class="form-control" id="nom" [(ngModel)]="newEmployee.tel" name="nom">
+  </div>
+  <div class="form-group">
+    <label for="nom">Tel :</label>
+    <input type="text" class="form-control" id="nom" [(ngModel)]="newEmployee.cin" name="nom">
+  </div>
+  <div class="form-group">
+    <label for="nom">Tel :</label>
+    <input type="text" class="form-control" id="nom" [(ngModel)]="newEmployee.departmentId" name="nom">
+  </div>
+  <!-- Ajoutez d'autres champs pour prénom, tel, cin, etc. -->
+
+  <button type="submit" class="btn btn-primary">Ajouter</button>
+</form>
+
